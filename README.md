@@ -200,9 +200,3 @@ Al Akhawayn University – April 2026
 * Add real-time notifications
 * Improve UI/UX design
 * Mobile version
-
----
-
-## 🔗 Repository Link
-
-(Add your GitHub link here)
