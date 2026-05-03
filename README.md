@@ -58,55 +58,55 @@ EcoReport provides:
 
 ### 🏠 Home Page
 
-<img src="screenshots/Home.jpeg" width="700">
+<img src="Home.jpeg" width="700">
 
 ---
 
 ### 🔐 Login
 
-<img src="screenshots/login.jpeg" width="700">
+<img src="login.jpeg" width="700">
 
 ---
 
 ### 📊 User Dashboard
 
-<img src="screenshots/dashboard.jpeg" width="700">
+<img src="dashboard.jpeg" width="700">
 
 ---
 
 ### 📝 Report Submission (Step 1)
 
-<img src="screenshots/Report_Submission.jpeg" width="700">
+<img src="Report_Submission.jpeg" width="700">
 
 ---
 
 ### 📝 Report Submission (Step 2)
 
-<img src="screenshots/Report_Submission2.jpeg" width="700">
+<img src="Report_Submission2.jpeg" width="700">
 
 ---
 
 ### ✅ Submission Confirmation
 
-<img src="screenshots/Submission.jpeg" width="700">
+<img src="Submission.jpeg" width="700">
 
 ---
 
 ### 🛠️ Admin Dashboard
 
-<img src="screenshots/Admin_Dashboard.jpeg" width="700">
+<img src="Admin_Dashboard.jpeg" width="700">
 
 ---
 
 ### ⚙️ Admin Features
 
-<img src="screenshots/Admin_features.jpeg" width="700">
+<img src="Admin_features.jpeg" width="700">
 
 ---
 
 ### 📈 Report Management
 
-<img src="screenshots/Report_Management.jpeg" width="700">
+<img src="Report_Management.jpeg" width="700">
 
 ---
 
