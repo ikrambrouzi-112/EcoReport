@@ -54,24 +54,59 @@ EcoReport provides:
 * Validate reports and award points
 
 ---
-
 ## 📸 Screenshots
 
-### 🔐 Login Page
+### 🏠 Home Page
 
-![Login](screenshots/login.png)
+<img src="screenshots/Home.jpeg" width="700">
 
-### 📊 Admin Dashboard
+---
 
-![Dashboard](screenshots/dashboard.png)
+### 🔐 Login
 
-### 📍 Report Submission (Map Integration)
+<img src="screenshots/login.jpeg" width="700">
 
-![Report Form](screenshots/report-form.png)
+---
 
-### 📈 Reports Management
+### 📊 User Dashboard
 
-![Reports](screenshots/reports.png)
+<img src="screenshots/dashboard.jpeg" width="700">
+
+---
+
+### 📝 Report Submission (Step 1)
+
+<img src="screenshots/Report_Submission.jpeg" width="700">
+
+---
+
+### 📝 Report Submission (Step 2)
+
+<img src="screenshots/Report_Submission2.jpeg" width="700">
+
+---
+
+### ✅ Submission Confirmation
+
+<img src="screenshots/Submission.jpeg" width="700">
+
+---
+
+### 🛠️ Admin Dashboard
+
+<img src="screenshots/Admin_Dashboard.jpeg" width="700">
+
+---
+
+### ⚙️ Admin Features
+
+<img src="screenshots/Admin_features.jpeg" width="700">
+
+---
+
+### 📈 Report Management
+
+<img src="screenshots/Report_Management.jpeg" width="700">
 
 ---
 
