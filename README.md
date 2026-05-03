@@ -1,17 +1,16 @@
-# EcoReport – Public Infrastructure & Fire Incident Reporting System
+# 🌍 EcoReport – Public Infrastructure & Fire Incident Reporting System
 
 ## 📍 Overview
 
-EcoReport is a full-stack web application designed to improve communication between citizens and local authorities in the Province of Ifrane.
+**EcoReport** is a full-stack web application designed to improve communication between citizens and local authorities in the Province of Ifrane.
 
-The platform allows citizens to report public infrastructure issues such as water leaks, fire hazards, and damaged public property, while enabling administrators to manage, prioritize, and resolve these reports efficiently.
+The platform enables citizens to report public infrastructure issues such as water leaks, fire hazards, and damaged public property, while allowing administrators to efficiently manage, prioritize, and resolve these reports.
 
 ---
 
 ## 🎯 Problem
 
-In Ifrane, there is no centralized system for citizens to report infrastructure problems.
-As a result:
+In Ifrane, there is no centralized system for reporting infrastructure issues. As a result:
 
 * Water leaks go unnoticed for long periods
 * Fire hazards are not reported quickly
@@ -25,7 +24,7 @@ EcoReport provides:
 
 * A structured platform for submitting incident reports
 * Real-time tracking of report status
-* An admin dashboard for managing reports
+* An admin dashboard for efficient management
 * A points and certification system to encourage citizen participation
 
 ---
@@ -39,11 +38,13 @@ EcoReport provides:
 
   * Incident type (water, fire, infrastructure)
   * Description
-  * Location (map-based)
+  * Location (map-based using Leaflet.js)
   * Photo upload
 * Track report status (Pending / In Progress / Resolved)
 * Earn points for valid reports
 * Receive certificates (Bronze / Silver / Gold)
+
+---
 
 ### 🛠️ Admin
 
@@ -54,26 +55,46 @@ EcoReport provides:
 
 ---
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+### 📊 Admin Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### 📍 Report Submission (Map Integration)
+
+![Report Form](screenshots/report-form.png)
+
+### 📈 Reports Management
+
+![Reports](screenshots/reports.png)
+
+---
+
 ## 🏗️ Architecture
 
 The system follows a **4-layer architecture**:
 
-1. **Presentation Layer**
+* **Presentation Layer**
 
-   * HTML, CSS, JavaScript
-   * User and admin interfaces
+  * HTML, CSS, JavaScript
+  * User and admin interfaces
 
-2. **Controller Layer**
+* **Controller Layer**
 
-   * REST APIs using Spring Boot
+  * REST APIs using Spring Boot
 
-3. **Service Layer**
+* **Service Layer**
 
-   * Business logic (validation, points system, location checks)
+  * Business logic (validation, points system, location checks)
 
-4. **Data Access Layer**
+* **Data Access Layer**
 
-   * MySQL database using JPA repositories
+  * MySQL database using JPA repositories
 
 ---
 
@@ -104,10 +125,10 @@ The system follows a **4-layer architecture**:
 
 Main tables:
 
-* `users`
-* `reports`
-* `certificates`
-* `points_transactions`
+* users
+* reports
+* certificates
+* points_transactions
 
 Includes:
 
@@ -129,8 +150,7 @@ Includes:
 
 ### 1. Backend
 
-* Navigate to the backend folder
-* Run the Spring Boot application:
+Navigate to the backend folder and run:
 
 ```bash
 mvn spring-boot:run
@@ -147,15 +167,15 @@ http://localhost:8080
 ### 2. Database
 
 * Create a MySQL database
-* Import the SQL schema provided
-* Update database credentials in `application.properties`
+* Import the provided SQL schema
+* Update credentials in `application.properties`
 
 ---
 
 ### 3. Frontend
 
 * Open the frontend folder
-* Run using Live Server (or open `index.html`)
+* Run using Live Server or open `index.html`
 
 Frontend runs on:
 
@@ -167,14 +187,9 @@ http://localhost:5500
 
 ## 📌 Current Status
 
-The system is fully implemented:
-
-* Backend and frontend are functional
-* Database is connected and populated
-
-🔧 **Known Issue:**
-Authentication login fails due to a BCrypt hash mismatch in the database.
-This is a data issue and can be resolved by updating the stored password hash.
+✅ Backend and frontend fully functional
+✅ Database connected and populated
+✅ Authentication issue fixed (BCrypt hashing corrected)
 
 ---
 
@@ -195,8 +210,9 @@ Al Akhawayn University – April 2026
 
 ## 📬 Future Improvements
 
-* Fix authentication issue
 * Deploy application online
 * Add real-time notifications
 * Improve UI/UX design
-* Mobile version
+* Develop a mobile version
+
+---
